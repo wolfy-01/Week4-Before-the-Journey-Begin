@@ -7,8 +7,7 @@ Contoh:
 */
 
 function kaliTerusRekursif(angka) {
-
-    angkaStr = String(angka)
+    let angkaStr = String(angka)
     angkaStr = angkaStr.split("");
     hasilKali = 1;
     for (i = 0; i <= angkaStr.length-1; i++){
